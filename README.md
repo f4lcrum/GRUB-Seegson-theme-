@@ -19,3 +19,5 @@ A custom theme inspired by fictional corporation from Alien universe
 ### Copyright & Licensing:
 
         Use as you want.
+
+https://github.com/user-attachments/assets/bf346f45-9d34-4329-9bd2-75131a3c5bb4)
