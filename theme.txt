@@ -1,0 +1,94 @@
+# Default theme for GRUB2
+#
+# Copyright (C) 2011 Daniel Tschudi
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+
+#general settings
+message-font: "Sevastopol Interface Regular 16"
+message-color: "#000"
+message-bg-color: "#b98000"
+terminal-font: "Sevastopol Interface Regular 16"
+desktop-color: "#000000"
+title-text: "SEEGSON"
+title-color: "#b98000"
+title-font: "Sound System Regular 200"
+
+#help bar at the bottom
++ label {
+	top = 100%-25
+	left = 0
+	width = 100%
+	height = 20
+	text = "@KEYMAP_MIDDLE@"
+	align = "center"
+	font = "Sevastopol Interface Regular 16"
+	color = "#b98000"
+}
+
++ label {
+        left = 30%
+        top = 20%
+        height = 30
+        width = 600
+      
+        color = "#b98000"
+      
+        align = "right"
+        font = "Sevastopol Interface Regular 72"
+        text = "REWIRE SYSTEM BOOT"
+}
+
+
+#boot menu
++ boot_menu {
+	left = 30%
+	width = 80%
+	top = 36%
+	height = 50%	
+	item_font = "Sevastopol Interface Regular 72"
+	item_color = "#b98000"
+	selected_item_font = "Sevastopol Interface Regular 72"
+	selected_item_color = "#f5ac02"
+	icon_height = 25
+	icon_width = 25
+	item_height = 40
+	item_padding = 0
+	item_icon_space = 0
+	item_spacing = 40
+	scrollbar = true
+	scrollbar_width = 20
+	scrollbar_thumb = "slider_*.png"
+}
+
+#progress bar
++ progress_bar {
+	id = "__timeout__"
+	left = 15%
+	top = 80%
+	height = 20
+	width = 70%
+	font = "Sevastopol Interface Regular 16"
+	text_color = "#b98000"
+	fg_color = "#b98000"
+	bg_color = "#000"
+	border_color = "#b98000"
+	text = "@TIMEOUT_NOTIFICATION_LONG@"
+}
+
