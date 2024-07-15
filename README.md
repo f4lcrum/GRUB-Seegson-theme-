@@ -20,4 +20,5 @@ A custom theme inspired by fictional corporation from Alien universe
 
         Use as you want.
 
-https://github.com/user-attachments/assets/bf346f45-9d34-4329-9bd2-75131a3c5bb4)
+### Screenshot
+![seegson](https://github.com/user-attachments/assets/38a0c6be-ca7e-4e30-9de2-e139cfb378a6)
